@@ -4,6 +4,7 @@ const Author = require('../models/author');
 
 //All Authors Route
 router.get('/', async (req, res) => {
+    // res.send('All Books');
     let searchOptions = {}
     if(req.query.name != null && req.query.name != '')
     {
