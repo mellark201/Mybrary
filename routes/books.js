@@ -5,7 +5,6 @@ const fs = require('fs');
 const Book = require('../models/books');
 const Author = require('../models/author');
 const books = require('../models/books');
-// const uploadPath = path.join('public', Book.coverImageBasePath)
 const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif']
 
 //All Books Route
