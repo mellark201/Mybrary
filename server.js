@@ -20,7 +20,6 @@ app.use(expressLayouts);
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({limit: '10mb', extended: false }))
 app.use(methodOverride('_method'))
-
 const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE_URL, { useUnifiedTopology: true });
 const db = mongoose.connection
